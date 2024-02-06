@@ -68,6 +68,10 @@ Card > Current Amplifier > Filter (without the capacitor) > Agilent > Card
 2. Load the file into the measurement.
 3. Check whether you have conductance with the Igor (load file, left panel, I / V)
    1. If you want to RESET, load the file. (amplifier, filter off) 
+4. A whole measurement is the following. 
+LRS > Noise on LRS > LRS > SET (create new series) > HRS > Noise on HRS > HRS > RESET > LRS
+5. Eval in Igor during the measurement
+6. Eval compared to other results.
 
 
 
